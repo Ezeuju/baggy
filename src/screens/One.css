@@ -1,0 +1,68 @@
+/* STYLING FOR MOREBAGSONE */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.arrivals{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.new{
+    color: #2b3991;
+}
+.rectangle{
+    background-color: white;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+
+
+/* STYLING FOR MOREBAGSTWO */
+.whole{
+    text-align: center;
+}
+.rec{
+    background-color: #fff;
+    padding-top: 30px;
+    margin: auto;
+    width: 90%;
+}
+@media screen and (max-width: 1000px){
+    .home{
+    /* outline: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 0px;
+    }
+    .arr-right{
+        display: none;
+        margin-bottom: 0px;
+    }
+    .rectangle{
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        /* outline: 2px solid red; */
+    }
+
+.whole{
+    font-size: 18px;
+    width: 100%;
+}
+.arrivals{
+    width: 80%;
+    margin: auto;
+}
+}
